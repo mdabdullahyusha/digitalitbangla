@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+/* Google Fonts */
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	list-style: none;
+	text-decoration: none !important;
+	font-family: 'Arimo', sans-serif;
+}
+ul {
+	margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.offer {
+	height: 10px;
+	width: 100%;
+	background: #4270b7;
+}
+/* header satrt */
+/* barner satrt */
+.banner {
+	max-width: 80%;
+	margin: 0 auto ;
+}
+.logo {
+	padding: 20px 0;
+}
+/* barner end  */
+
+
+/* header end */
+
+/* nav satrt */
+.nav_bac {
+	background: #f1f2f6;
+	/* border: 1px solid #747d8c;
+	box-shadow: 4px 8px 10px rgba(0, 0, 0, 1), ; */
+}
+.nav_part{
+	max-width: 90%;
+	margin: 0 auto;
+
+}
+.main_ul {
+	display: flex;
+}
+.main_ul li {
+	padding: 15px 20px 15px;
+}
+.main_ul li a {
+	font-size: 17px;
+	color: #2c3e50;
+}
+
+/* Slider Part Start */
+.carousel-inner{
+  width:100%;
+  max-height: 600px !important;
+}
+.carousel-caption {
+	top: 30%;
+}
+.carousel-caption h5 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.carousel-caption p {
+	font-size: 22px;
+}
+/* Slider Part End */
